@@ -1,6 +1,7 @@
 #Cover{
 position : relative;
 box-shadow : 0px 0px 0px black;
+text-decoration : none;
 }
 
 #Cover img{
