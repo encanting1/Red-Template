@@ -1,0 +1,60 @@
+#spbtitle{
+		font-size: 50px;
+		text-align: center;
+		font-weight: bold;
+		font-family: "brush script mt";
+		padding: 24px;
+		padding-bottom: 0px;
+	}
+
+	#spbsubtitle{
+		font-size: 20px;
+		text-align: center;
+		font-weight: bold;
+		font-family: "brush script mt";
+		padding: 12px;
+		padding-top: 0px;
+	}
+
+	#spbcover1{
+		background-image: url(https://images5.alphacoders.com/715/thumb-1920-715064.png);
+		height: 400px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#spbcover2{
+		background-image: url(https://images3.alphacoders.com/676/thumb-1920-676752.png);
+		height: 400px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#spbcover3{
+		background-image: url(https://images7.alphacoders.com/715/thumb-1920-715066.png);
+		height: 400px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#spbwr{
+		font-family: "brush script mt";
+		padding: 24px;
+		overflow: auto;
+		text-align: justify;
+	}
+
+	#spbwrhead{
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	#spbwrbf{
+		float: left;
+		font-size: 40px;
+		margin-right: 12px;
+	}
+
+	#spbwrbody{
+		font-size: 20px;
+	}
