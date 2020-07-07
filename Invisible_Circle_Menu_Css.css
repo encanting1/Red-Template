@@ -1,0 +1,34 @@
+#InCiMebody{
+		background-image: url(bg.jpg);
+		background-size: cover;
+		margin: 0px;
+	}
+	#InCiMebase{
+		position: relative;
+	}
+	#InCiMevisi{
+		padding: 12px;
+		position: fixed;
+		right: 12px;
+		top: 12px;
+		border-radius: 50%;
+		border : 5px solid black;
+		transition: var(--c);
+		top : calc(12px + var(--a));
+		right : calc(12px + var(--b));
+	}
+	#InCiMevisi:hover{
+		transform: scale(1.2);
+	}
+	#InCiMevisi img{
+		cursor: pointer;
+	}
+	#InCiMechk{
+		display: none;
+	}
+	#InCiMechk:checked ~ #InCiMevisi{
+		opacity: var(--d);
+		top: 12px;
+		right: 12px;
+		transform: rotateY(360deg);
+	}
