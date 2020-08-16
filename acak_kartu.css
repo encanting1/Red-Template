@@ -1,0 +1,35 @@
+	body{
+		background-image: url(https://images4.alphacoders.com/991/thumb-1920-991136.jpg);
+		background-size: cover;
+	}
+	#base{
+		display: flex;
+		justify-content: center;
+		perspective : 1000px;
+	}
+	#base-card{
+		background-image: url(https://cache.desktopnexus.com/cropped-wallpapers/2105/2105879-1366x768-[DesktopNexus.com].jpg?st=I6qEK0_J2tGddX86cw1Q8A&e=1597139324);
+		border : 10px solid #FEC55A;
+		padding : 40px;
+		width: 100px;
+		height: 250px;
+		cursor: pointer;
+		background-size: 200px;
+		transform-style: preserve-3d;
+		position: relative;
+		transition: transform 1s ease;
+	}
+	#base-card img{
+		width: 100px;
+		height: 250px;
+		transform: rotateY(180deg);
+	}
+	#text{
+		padding: 20px;
+		box-sizing: border-box;
+		font-family: comic sans ms;
+		font-size: 20px;
+		width: 40%;
+		overflow: hidden;
+		transition: transform 2s ease;
+	}
